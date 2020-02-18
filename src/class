@@ -1,0 +1,46 @@
+
+// import PropTypes from "prop-types";
+
+//function component는 뭔가를 return하고 scrren에 표시
+// className component는 react component로부터 확장되고 screen에 표시
+
+
+
+// function Food({name, rating}){
+//   return <div>
+//     <h1>I like {name}</h1>
+//     <h4>rating -> {rating}/5</h4>
+//     {/* <img src={}/> */}
+//   </div>
+// }
+
+// // react component는 다 구별이 되어야한다. id를 설정해준다.
+// const foodIlike = [
+//   {id: 1, name: "a", rating: 5}, 
+//   {id: 2, name: "b", rating: 3},
+//   {id: 3, name: "c", rating: 2.5}];
+
+// // function renderFood(dish){
+// //   return <Food name ={dish.name}/>
+// // }
+
+// Food.propTypes = {
+//   name:PropTypes.string.isRequired,
+//   // picture: PropTypes.string.isRequired,
+//   rating: PropTypes.number
+// }
+// // function component vs className component
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* property name으로 kimchi라고 food component에 전달*/}
+
+//       {/* map의 인자로 들어가는것은 object다... */}
+//       {foodIlike.map(dish =>(
+//       <Food key = {dish.id} name = {dish.name} rating = {dish.rating}/>
+//       ))}
+//       {/* {console.log(foodIlike.map(renderFood))}
+//       {foodIlike.map(renderFood)}     */}
+//     </div>
+//   );
+// }
